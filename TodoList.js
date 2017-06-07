@@ -47,6 +47,7 @@ var todoList = {
     this.displayTodos();
   },
   toggleAll: function() {
+    debugger;
     var totalTodos = this.todos.length
     var allTrue = 0;
 
@@ -74,7 +75,7 @@ var todoList = {
 var displayTodosButton = document.getElementById('displayTodosButton');
 var displayToPage = document.getElementById('displayToPage');
 var toggleAllButton = document.getElementById("toggleAllButton");
-debugger;
+
 function displayTodos () {
   var display = ''
   for (var i = 0; i < todoList.todos.length; i++) {
