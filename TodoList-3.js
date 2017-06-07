@@ -30,6 +30,7 @@ var todoList = {
     this.displayTodos();
   },
   toggleCompleted: function(position) {
+    debugger;
     var todo = this.todos[position];
     todo.completed = !todo.completed;
     this.displayTodos();
